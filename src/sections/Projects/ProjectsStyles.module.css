@@ -1,0 +1,118 @@
+
+.container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  
+    img{
+        max-width: 400px;
+        align-self: center;
+        border-radius: 20px;
+        width: 300px;
+    }
+   
+    a{
+        width: fit-content;
+        text-decoration: none;
+        color: #222222;
+        transition: transform 200ms ease-in-out;
+    }
+
+    a:hover{
+        transform: scale(1.05);
+    }
+
+}
+
+.projectsContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 70px;
+    
+
+    .wizards{
+        background-color: rgb(43, 42, 54);
+        border-radius: 20px;
+        padding: 20px;
+        overflow: hidden;
+        img{
+            object-fit: cover;
+            transition: transform 800ms;
+        }
+        img:hover{
+            transform: scale(1.7);
+        }
+    }
+    .nasa{
+        background-color: rgb(43, 42, 54);
+        border-radius: 20px;
+        padding: 20px;
+        overflow: hidden;
+        img{
+            object-fit: cover;
+            transition: transform 800ms;
+        }
+        img:hover{
+            transform: scale(1.7);
+        }
+    }
+    .gt{
+        background-color: rgb(43, 42, 54);
+        border-radius: 20px;
+        padding: 20px;
+        overflow: hidden;
+        img{
+            object-fit: cover;
+            transition: transform 800ms;
+        }
+        img:hover{
+            transform: scale(1.7);
+        }
+    }
+    .frog{
+        background-color: rgb(43, 42, 54);
+        border-radius: 20px;
+        padding: 20px;
+        overflow: hidden;
+        img{
+            object-fit: cover;
+            transition: transform 800ms;
+        }
+        img:hover{
+            transform: scale(1.7);
+        }
+    }
+    .bmi{
+        background-color: rgb(43, 42, 54);
+        border-radius: 20px;
+        padding: 20px;
+        overflow: hidden;
+        img{
+            object-fit: cover;
+            transition: transform 800ms;
+        }
+        img:hover{
+            transform: scale(1.7);
+        }
+    }
+}
+
+
+@media(width>=800px){
+    .projectsContainer{
+        flex-direction:row;
+        flex-wrap:wrap;
+        justify-content: space-evenly;
+        padding: 0 30px;
+    }
+}
+
+h3{
+    color: #c4babb;;
+}
+h1{
+    font-size: 50px;
+}
+
+
